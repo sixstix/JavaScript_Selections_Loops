@@ -16,12 +16,12 @@ console.log("EXERCISE 2:\n==========\n");
 
 for (let i = 0; i < 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
-        console.log("FIZZBUZZ");
+        console.log(i, "FIZZBUZZ");
     } else {
         if (i % 3 == 0) {
-            console.log("FIZZ");
+            console.log(i, "FIZZ");
         }  else if (i % 5 == 0) {
-            console.log("BUZZ");
+            console.log(i, "BUZZ");
         }   else {
             console.log(i);
         }
